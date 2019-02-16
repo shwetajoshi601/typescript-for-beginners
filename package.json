@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "pretest": "npm run lint",
+    "test": "istanbul cover --report cobertura --report html ./node_modules/mocha/bin/_mocha \"test/*.js\"  -- --reporter mocha-jenkins-reporter",
+    "test-no-coverage": "mocha test.js || true",
+    "lint": "eslint .",
+    "lint-checkstyle-XML-log": "eslint -f checkstyle . || true"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@types/node": "^10.11.5",
+    "@types/request": "^2.47.1",
+    "request": "^2.88.0"
+  }
+}
