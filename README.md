@@ -4,14 +4,16 @@ The scripts in this repository demonstrate some basic features of TypeScript.
 
 ## Pre-requisites
 Before running the scripts, ensure you have the following installed on your system:
-* Node.js
+* **Node.js**
+
 To verify if you have Node.js installed, type the command:
 ```
 node -v
 ```
 If you do not see the version, download and install from the official Node.js website.
 
-* TypeScript
+* **TypeScript**
+
 To verify if you have TypeScript installed, type the command:
 ```
 tsc
